@@ -1,0 +1,16 @@
+fine_tune  UNEP_v1.txt nep.restart
+type       1 Zr
+version    4
+zbl        2
+cutoff     6 5
+n_max      8 8
+l_max      4 2 1
+neuron     80
+lambda_1   0.02
+lambda_2   0.02
+lambda_e   1
+lambda_f   1
+lambda_v   0.1
+batch      5000
+population 60
+generation 300000
